@@ -18,6 +18,10 @@ docker run -d -p 4000:4000 --name gitbook -v $cwd/book:/app/book docker-gitbook
 
 All options are mandatory only for the first execution. Once container is created it can be started by using `docker run devbook` command.
 
+## Reading GitBook
+
+Connect to the [http://localhost:4000](http://localhost:4000) to access GitBook content.
+
 ## Stopping docker container
 
 ```
